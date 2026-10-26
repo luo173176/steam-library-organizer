@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 本地运行产物，绝不入库
+output/
+data/
+logs/
+backups/
+tests/__pycache__/
+
+# 凭据
+apikey.txt
+*.key
+*.token
+.env
+secrets.*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
